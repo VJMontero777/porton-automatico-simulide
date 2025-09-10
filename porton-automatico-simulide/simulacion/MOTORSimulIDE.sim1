@@ -1,0 +1,147 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="L298P-5" mainComp="false" Show_id="true" Show_Val="false" Pos="-4,-164" rotation="0" hflip="1" vflip="1" label="L298P-5" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="12 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="Ground" CircId="Ground-6" mainComp="false" Show_id="false" Show_Val="false" Pos="48,140" rotation="0" hflip="1" vflip="1" label="Ground-6" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="Mega-9" mainComp="false" Show_id="true" Show_Val="false" Pos="-248,-292" rotation="0" hflip="1" vflip="1" label="Mega-9" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega2560-63" Frequency="16 MHz" Program="MOTORSimulIDE.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Voltage Source" CircId="Voltage Source-15" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-36,-292" rotation="0" hflip="1" vflip="1" label="Voltage Source-15" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="0.11 V" MaxValue="9 V" MinValue="0 V" />
+
+<item itemtype="SR04" CircId="SR04-16" mainComp="false" Show_id="false" Show_Val="false" Pos="104,-288" rotation="0" hflip="1" vflip="1" label="SR04-16" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="L298P-29" mainComp="false" Show_id="true" Show_Val="false" Pos="-4,-60" rotation="0" hflip="1" vflip="1" label="L298P-29" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="12 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="Led" CircId="Led-21" mainComp="false" Show_id="false" Show_Val="false" Pos="-164,104" rotation="0" hflip="1" vflip="1" label="Led-21" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Red" Grounded="false" Threshold="1.8 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-26" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-116,44" rotation="0" hflip="1" vflip="1" label="Resistor-26" idLabPos="-16,-24" labelrot="0" valLabPos="-9.63604,-7.43503" valLabRot="0" Resistance="220 Ω" />
+
+<item itemtype="Push" CircId="Push-71" mainComp="false" Show_id="false" Show_Val="false" Pos="-280,-308" rotation="0" hflip="1" vflip="1" label="Push-71" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" Key="H" />
+
+<item itemtype="Push" CircId="Push-72" mainComp="false" Show_id="false" Show_Val="false" Pos="-280,-272" rotation="0" hflip="1" vflip="1" label="Push-72" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" Key="A" />
+
+<item itemtype="Stepper" CircId="Stepper-89" mainComp="false" Show_id="true" Show_Val="false" Pos="168,-16" rotation="0" hflip="1" vflip="1" label="Stepper-89" idLabPos="-32,-62" labelrot="0" valLabPos="-14,36" valLabRot="0" Bipolar="false" Steps="360" Resistance="100 Ω" />
+
+<item itemtype="Stepper" CircId="Stepper-90" mainComp="false" Show_id="true" Show_Val="false" Pos="168,-124" rotation="0" hflip="1" vflip="1" label="Stepper-90" idLabPos="-32,-62" labelrot="0" valLabPos="-14,36" valLabRot="0" Bipolar="false" Steps="360" Resistance="100 Ω" />
+
+<item itemtype="Battery" CircId="Battery-98" mainComp="false" Show_id="false" Show_Val="false" Pos="4,64" rotation="0" hflip="1" vflip="1" label="Battery-98" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Ground" CircId="Ground-101" mainComp="false" Show_id="false" Show_Val="false" Pos="-320,-228" rotation="0" hflip="1" vflip="1" label="Ground-101" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-86" mainComp="false" Pos="-36,-116" />
+
+<item itemtype="Node" CircId="Node-87" mainComp="false" Pos="-48,-116" />
+
+<item itemtype="Node" CircId="Node-88" mainComp="false" Pos="-56,-116" />
+
+<item itemtype="Node" CircId="Node-94" mainComp="false" Pos="48,-100" />
+
+<item itemtype="Node" CircId="Node-96" mainComp="false" Pos="48,-4" />
+
+<item itemtype="Node" CircId="Node-97" mainComp="false" Pos="48,4" />
+
+<item itemtype="Node" CircId="Node-99" mainComp="false" Pos="48,64" />
+
+<item itemtype="Node" CircId="Node-100" mainComp="false" Pos="48,104" />
+
+<item itemtype="Node" CircId="Node-102" mainComp="false" Pos="-320,-272" />
+
+<item itemtype="Node" CircId="Node-104" mainComp="false" Pos="44,40" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="L298P-5-IN1" endpinid="Mega-9-2" pointList="-12,-156,-240,-156" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="L298P-5-IN2" endpinid="Mega-9-3" pointList="-12,-148,-240,-148" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="L298P-5-IN3" endpinid="Mega-9-4" pointList="-12,-140,-240,-140" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="L298P-5-IN4" endpinid="Mega-9-5" pointList="-12,-132,-240,-132" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="Voltage Source-15-outPin" endpinid="SR04-16-inpin" pointList="-8,-276,0,-276,0,-312,16,-312" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="SR04-16-outpin" endpinid="Mega-9-7" pointList="112,-240,112,-188,-260,-188,-260,-116,-240,-116" />
+
+<item itemtype="Connector" uid="Connector-84" startpinid="L298P-29-IN1" endpinid="Mega-9-8" pointList="-12,-52,-32,-52,-32,-100,-240,-100" />
+
+<item itemtype="Connector" uid="Connector-86" startpinid="L298P-29-IN2" endpinid="Mega-9-9" pointList="-12,-44,-40,-44,-40,-92,-240,-92" />
+
+<item itemtype="Connector" uid="Connector-88" startpinid="L298P-29-IN4" endpinid="Mega-9-11" pointList="-12,-28,-64,-28,-64,-76,-240,-76" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="Resistor-26-rPin" endpinid="Mega-9-13" pointList="-100,44,-68,44,-68,-60,-240,-60" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="SR04-16-trigpin" endpinid="Mega-9-6" pointList="104,-240,104,-200,-272,-200,-272,-124,-240,-124" />
+
+<item itemtype="Connector" uid="Connector-214" startpinid="Push-71-switch0pinN" endpinid="Mega-9-31" pointList="-264,-308,-200,-308,-200,-276" />
+
+<item itemtype="Connector" uid="Connector-215" startpinid="Push-72-switch0pinN" endpinid="Mega-9-33" pointList="-264,-272,-252,-272,-252,-320,-192,-320,-192,-276" />
+
+<item itemtype="Connector" uid="Connector-216" startpinid="Resistor-26-lPin" endpinid="Led-21-lPin" pointList="-132,44,-200,44,-200,104,-180,104" />
+
+<item itemtype="Connector" uid="Connector-264" startpinid="L298P-5-EnB" endpinid="Node-86-1" pointList="-12,-108,-36,-108,-36,-116" />
+
+<item itemtype="Connector" uid="Connector-265" startpinid="L298P-5-EnA" endpinid="Node-86-0" pointList="-12,-116,-36,-116" />
+
+<item itemtype="Connector" uid="Connector-274" startpinid="L298P-29-EnA" endpinid="Node-87-1" pointList="-12,-12,-48,-12,-48,-116" />
+
+<item itemtype="Connector" uid="Connector-275" startpinid="Node-86-2" endpinid="Node-87-0" pointList="-36,-116,-48,-116" />
+
+<item itemtype="Connector" uid="Connector-277" startpinid="L298P-29-EnB" endpinid="Node-88-1" pointList="-12,-4,-56,-4,-56,-116" />
+
+<item itemtype="Connector" uid="Connector-278" startpinid="Node-87-2" endpinid="Node-88-0" pointList="-48,-116,-56,-116" />
+
+<item itemtype="Connector" uid="Connector-279" startpinid="Node-88-2" endpinid="Mega-9-5V00" pointList="-56,-116,-80,-116,-80,-84,-96,-84" />
+
+<item itemtype="Connector" uid="Connector-280" startpinid="L298P-29-IN3" endpinid="Mega-9-10" pointList="-12,-36,-36,-36,-36,32,-256,32,-256,-84,-240,-84" />
+
+<item itemtype="Connector" uid="Connector-281" startpinid="L298P-5-OUT1" endpinid="Stepper-90-PinA1" pointList="36,-156,96,-156" />
+
+<item itemtype="Connector" uid="Connector-282" startpinid="L298P-5-OUT2" endpinid="Stepper-90-PinA2" pointList="36,-148,80,-148,80,-108,96,-108" />
+
+<item itemtype="Connector" uid="Connector-287" startpinid="L298P-5-OUT3" endpinid="Stepper-90-PinB1" pointList="36,-140,96,-140" />
+
+<item itemtype="Connector" uid="Connector-288" startpinid="L298P-5-OUT4" endpinid="Stepper-90-PinB2" pointList="36,-132,72,-132,72,-92,96,-92" />
+
+<item itemtype="Connector" uid="Connector-289" startpinid="L298P-29-OUT1" endpinid="Stepper-89-PinA1" pointList="36,-52,68,-52,68,-48,96,-48" />
+
+<item itemtype="Connector" uid="Connector-294" startpinid="L298P-29-OUT2" endpinid="Stepper-89-PinA2" pointList="36,-44,64,-44,64,0,96,0" />
+
+<item itemtype="Connector" uid="Connector-295" startpinid="L298P-29-OUT3" endpinid="Stepper-89-PinB1" pointList="36,-36,52,-36,52,-32,96,-32" />
+
+<item itemtype="Connector" uid="Connector-296" startpinid="L298P-29-OUT4" endpinid="Stepper-89-PinB2" pointList="36,-28,52,-28,52,16,96,16" />
+
+<item itemtype="Connector" uid="Connector-304" startpinid="L298P-5-SenB" endpinid="Node-94-1" pointList="36,-100,48,-100" />
+
+<item itemtype="Connector" uid="Connector-305" startpinid="L298P-5-SenA" endpinid="Node-94-0" pointList="36,-108,48,-108,48,-100" />
+
+<item itemtype="Connector" uid="Connector-310" startpinid="L298P-29-SenA" endpinid="Node-96-1" pointList="36,-4,48,-4" />
+
+<item itemtype="Connector" uid="Connector-313" startpinid="L298P-29-SenB" endpinid="Node-97-1" pointList="36,4,48,4" />
+
+<item itemtype="Connector" uid="Connector-314" startpinid="Node-96-2" endpinid="Node-97-0" pointList="48,-4,48,4" />
+
+<item itemtype="Connector" uid="Connector-316" startpinid="Node-94-2" endpinid="Node-96-0" pointList="48,-100,48,-4" />
+
+<item itemtype="Connector" uid="Connector-318" startpinid="Battery-98-rPin" endpinid="Node-99-1" pointList="20,64,48,64" />
+
+<item itemtype="Connector" uid="Connector-319" startpinid="Node-97-2" endpinid="Node-99-0" pointList="48,4,48,64" />
+
+<item itemtype="Connector" uid="Connector-321" startpinid="Led-21-rPin" endpinid="Node-100-1" pointList="-148,104,48,104" />
+
+<item itemtype="Connector" uid="Connector-322" startpinid="Node-99-2" endpinid="Node-100-0" pointList="48,64,48,104" />
+
+<item itemtype="Connector" uid="Connector-323" startpinid="Node-100-2" endpinid="Ground-6-Gnd" pointList="48,104,48,124" />
+
+<item itemtype="Connector" uid="Connector-325" startpinid="Push-72-pinP0" endpinid="Node-102-1" pointList="-296,-272,-320,-272" />
+
+<item itemtype="Connector" uid="Connector-326" startpinid="Push-71-pinP0" endpinid="Node-102-0" pointList="-296,-308,-320,-308,-320,-272" />
+
+<item itemtype="Connector" uid="Connector-327" startpinid="Node-102-2" endpinid="Ground-101-Gnd" pointList="-320,-272,-320,-244" />
+
+<item itemtype="Connector" uid="Connector-332" startpinid="L298P-29-Vs" endpinid="Node-104-1" pointList="36,-12,44,-12,44,40" />
+
+<item itemtype="Connector" uid="Connector-333" startpinid="L298P-5-Vs" endpinid="Node-104-0" pointList="36,-116,56,-116,56,40,44,40" />
+
+<item itemtype="Connector" uid="Connector-334" startpinid="Node-104-2" endpinid="Battery-98-lPin" pointList="44,40,-24,40,-24,64,-12,64" />
+
+</circuit>
